@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+  list-style-type: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style-type: none;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+a {
+  text-decoration: none;
+
+}
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  font-size: 10px;
+  max-width: 480px;
+  background: #F0EFE7;
+  margin: 0 auto;
+  Color: #444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*ENCABEZADO
+=======================*/
+header {
+  overflow: hidden;
+  background: #C33221;
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding: 10px 0;
+}
+header a, header i{
+  color: white;
+}
+.logo{
+  float: left;
+  width: 32%;
+}
+.menu {
+  display: none;
+}
+nav {
+  float: right;
+  padding: 10px 0;
+}
+.registro {
+  overflow: hidden;
+}
+.registro li {
+  float: left;
+  margin-right: 5px;
+}
+i {
+  float: left;
+  margin-right: 9px;
+}
+main {
+  overflow: hidden;
+}
+
+/* main
+==================== */
+.redes {
+  float: right;
+  margin-top: 5px;
+}
+main h1, main h3{
+  text-align: center;
+}
+main h1{
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 20px;
+}
+main h3{
+  font-size: 1.5em;
+}
+
+form {
+  text-align: center;
+}
+input {
+  margin-top: 25px;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid #D1D1D1 ;
+  padding: 5px;
+}
+button {
+  background: #4A77D9;
+  color: white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 5px;
+}
+.urgencias h1{
+  border-bottom: 1px solid #3C3D3E;
+  margin-top: 60px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+div {
+  margin: 0 auto;
+  width: 100%;
+}
+article {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+article img{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.contenido {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: rgba(5, 5, 5, 0.5);
+  height: 100px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 90%;
+}
+.contenido h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+.contenido p{
+  border-left: 0px;
+  text-align: left;
+}
+.CAMPANASREGULARES h1{
+  border-bottom: 1px solid #3C3D3E;
+  margin-top: 60px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.articulossecundarios {
+  overflow:hidden;
+}
+
+.secundario {
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.secundario img{
+  width: 20%;
+  float: left;
+}
+
+.secundario h3, p{
+  float: left;
+  font-weight: bold;
+}
+
+.secundario h3 {
+  font-size: 1.2em;
+  width: 50%;
+  margin-left: 10px;
+}
+.secundario p {
+	margin-top: 10px;
+}
+
+
+footer {
+	  overflow: hidden;
+	  background: #C33221;
+	  max-width: 100%;
+	  margin: 0 auto;
+	  line-height: 30px;
+	  padding: 10px 0;
+	}
+
+	footer li {
+		  color: white;
+			float: right;
+			margin-right: 15px;
+	}
+	footer a {
+		color: white;
+	}
+
+@media (min-width: 768px) {
+
+}

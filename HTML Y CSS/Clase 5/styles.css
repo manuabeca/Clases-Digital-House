@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+ul, ol{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  width: 900 px;
+  background-image: url("bg-2.png")
+}
+.logo{
+  position: absolute;
+  z-index: 5;
+}
+header {
+  width: 960px;
+margin: 0 auto;
+position: relative;
+}
+ul {
+  list-style: none;
+    background: red;
+    background-size: contain;
+    color: white;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+    margin-right: 200px;
+
+}
+li {
+  float: left;
+  margin: 20px;
+}
+nav {
+  position: relative;
+  top: 25px;
+  left: 90px;
+  margin-bottom: 60px;
+}
+main{
+  background: white;
+  overflow: hidden;
+}
+.article {
+  background: white;
+  margin: 10px;
+  float: left;
+  width: 300px;
+}
